@@ -3,4 +3,4 @@
 a = range(97, 123)
 
 for i in a:
-    print("{}".format(i))
+    print("{}".format(chr(i)))
