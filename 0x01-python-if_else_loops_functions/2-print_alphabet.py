@@ -1,4 +1,6 @@
 #!/usr/bin/python3
 
-for c in range(ord('a'), ord('z')):
-    print(chr(c))
+a = range(97, 123)
+
+for i in a:
+    print(chr(i))
