@@ -1,11 +1,13 @@
 #!/usr/bin/python3
 
 def uppercase(str):
-   up = ""
+    up = ""
 
-for char in str:
-    if char >= 'a' and char <= 'z':
-        up += ord(char) - 32
-    else:
-        up += (char)
+    for char in str:
+        if char >= 'a' and char <= 'z':
+            up += chr(ord(char) - 32)
+        else:
+            up += char
     print("{}".format(up), end = "")
+
+uppercase("hellO, worked")
