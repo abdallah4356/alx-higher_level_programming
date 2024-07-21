@@ -8,4 +8,4 @@ for char in str:
         up += ord(char) - 32
     else:
         up += (char)
-    print(up)
+    print("{}".format(up), end = "")
