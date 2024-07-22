@@ -8,6 +8,6 @@ def pow(a, b):
         return r
     elif b < 0:
         r = 1
-        for i in range (-b):
+        for i in range(-b):
             r *= a
         return 1 / r
