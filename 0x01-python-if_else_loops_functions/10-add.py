@@ -1,4 +1,8 @@
 #!/usr/bin/python3
 
 def add(a, b):
-    print("{}".format(abs(a + b))) 
+    r = abs(a + b)
+
+    print("{}".format(r))
+    return r
+
