@@ -7,4 +7,3 @@ if __name__ == "__main__":
         r += int(sys.argv[i])
 
     print("{}".format(r))
-
