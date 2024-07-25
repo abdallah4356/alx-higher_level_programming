@@ -1,4 +1,5 @@
 def add(a, b):
+    if __name__ == "__main__":
     """My addition function
 
     Args:
@@ -9,5 +10,3 @@ def add(a, b):
         The return value. a + b
     """
     return (a + b)
-if __name__ == "__main__":
-    print("{} + {} = {}".format(a, b, add(a, b)))
